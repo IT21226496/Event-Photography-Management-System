@@ -1,0 +1,64 @@
+/*start packages css*/
+
+h1{
+    color: #FB8122;
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 50px;
+ }
+ div {
+     transition: transform 1s;
+    }
+ div:hover{
+     transform:scale(1.2);
+    
+ }
+ h2{
+     
+     color: #f4db7d;
+     text-align: center;
+     font-size: 30px;
+ }
+ .col{
+ 
+     float: left;
+     width: 33.33%; 
+     height: fit-content;
+     padding: 50px;
+     box-sizing: border-box;
+     
+     
+ }
+ .price-box{
+     background: #E1E2E2;
+     color: black;
+     list-style-type: none;
+     border:1px solid peachpuff;
+     margin: 10px;
+     padding: 0;
+    
+     height: 500px;
+ }
+ .price-box .header{
+     background-color: #FB8122;
+     color: black;
+     font-size: 18px;
+     text-decoration:solid;
+ }
+ .price-box li{
+     padding:10px;
+     text-align: center;
+     border-bottom: 1px solid peachpuff;
+ }
+ .button{
+     background-image: linear-gradient(-45deg, orange, orangered);
+     background-color: orangered;
+     border-radius: 10px;
+     color: white;
+     padding: 10px;
+     text-align: center;
+     font-size: 16px;
+ }
+
+/*end packages css*/
